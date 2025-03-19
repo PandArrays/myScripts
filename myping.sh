@@ -1,12 +1,12 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # This script checks if a server is up and, if it is, attempts an SSH connection.
 # Customize the list below with your server names and addresses.
 
 # Declare an associative array mapping server names to IP addresses or hostnames.
 declare -A SERVERS=(
-  ["Home Server"]="192.168.2.14"
-  ["PC Gaming"]="192.168.2.233"
-  ["MacBook Air"]="192.168.2.86"
+  ["HomeServer"]="192.168.2.14"
+  ["PCGaming"]="192.168.2.233"
+  ["MacBookAir"]="192.168.2.86"
 )
 
 # Display a menu of servers to the user.
